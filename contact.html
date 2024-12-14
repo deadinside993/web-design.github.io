@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О веб-дизайне</a></li>
+            <li><a href="principles.html">Принципы веб-дизайна</a></li>
+            <li><a href="types.html">Типы сайтов</a></li>
+            <li><a href="components.html">Компоненты дизайна</a></li>
+            <li><a href="tools.html">Инструменты веб-дизайна</a></li>
+            <li><a href="trends.html">Тренды веб-дизайна</a></li>
+            <li><a href="contact.html" class="active">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h1 class="page-title">Контакты</h1>
+
+    <section class="block">
+        <h2>Свяжитесь с нами</h2>
+        <form class="contact-form" id="contactForm">
+            <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+            <input type="email" id="email" name="email" placeholder="Ваш email" required>
+            <textarea id="message" name="message" placeholder="Ваше сообщение" rows="3" required></textarea>
+            <button type="submit" class="btn-secondary">Отправить</button></br></br>
+        </form>
+    </section>
+
+    <section class="block contact-row">
+        <div class="block-content contact-info">
+            <h2>Наш офис</h2>
+            <p>Мы находимся по адресу: Комсомольск-На-Амуре, ул. Ленина 27, 3 корпус</p>
+            <p>Рабочие часы: Пн-Сб с 7:00 до 21:00</p>
+            <p>Телефон: +7 (4217) 53-23-04</p>
+        </div>
+        <div class="contact-map">
+            <iframe src="https://yandex.ru/map-widget/v1/?from=mapframe&ll=137.005624%2C50.545292&mode=usermaps&source=mapframe&um=constructor%3Ac009cf2aaa8874c21156bc0398a42d3f55e1cacab4f840832b2245e6df2edb95&utm_source=mapframe&z=16.8" frameborder="0" allowfullscreen="true"></iframe>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© 2024 Веб-дизайн. Все права защищены.</p>
+    <p><a href="contact.html">Свяжитесь с нами</a></p>
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
